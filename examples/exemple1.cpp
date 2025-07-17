@@ -3,7 +3,7 @@
 
 int main() {
     int result = add(2, 3);
-    std::cout << "Le résultat de l'addition est : " << result << std::endl;
+    std::cout << "result : " << result << std::endl;
 
     int *ptr = new int[10];
     // Buffer overflow: index 10 is out of bounds (0-9)
