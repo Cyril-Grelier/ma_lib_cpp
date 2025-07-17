@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.22)
 project(ma_lib LANGUAGES CXX)
 # Add the cmake directory to the module path
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 include(cmake/CPM.cmake)
 
 option(BUILD_TESTS "Build tests" OFF)
-option(BUILD_EXAMPLES "Build examples" ON)
+option(BUILD_EXAMPLES "Build examples" OFF)
 
 add_subdirectory(lib)
 
