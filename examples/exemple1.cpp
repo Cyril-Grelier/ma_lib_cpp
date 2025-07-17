@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ma_lib.hpp>
+#include <ma_lib.h>
 
 int main() {
     int result = add(2, 3);
